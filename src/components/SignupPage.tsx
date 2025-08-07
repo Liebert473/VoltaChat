@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Checkbox } from "@/components/ui/checkbox";
 import { AlertCircle, Mail, User, Lock, Chrome } from "lucide-react";
-import { supabase, handleAuthError, authHelpers } from "../lib/supabaseClient";
+import { handleAuthError, authHelpers } from "../lib/supabaseClient";
 
 // Interface for form data
 interface SignupFormData {

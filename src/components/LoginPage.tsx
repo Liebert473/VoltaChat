@@ -12,7 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { AlertCircle, Mail, Lock, Chrome } from "lucide-react";
-import { supabase, handleAuthError, authHelpers } from "../lib/supabaseClient";
+import { handleAuthError, authHelpers } from "../lib/supabaseClient";
 
 // Interface for form data
 interface LoginFormData {
